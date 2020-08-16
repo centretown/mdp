@@ -1,0 +1,18 @@
+{
+    "label": "Process 1",
+    deviceKey": "esp32-200",
+    "purpose": "Blink",
+    "setup": [
+        {
+            "sequence": 2,
+            "type": "PIN",
+            "command": {
+                "id": -2,
+                "signal": "digital",
+                "mode": "output",
+                "value": 25
+            }
+        }
+    ],
+    "loop": []
+}

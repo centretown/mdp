@@ -1,0 +1,17 @@
+{
+    "label": "Process 1",
+    "deviceKey": "esp32-200",
+    "purpose": "Blink",
+    "setup": [
+        {
+            "sequence": 0,
+            "type": "MODE",
+            "command": {
+                "id": -2,
+                "signal": "diital",
+                "mode": "ouput"
+            }
+        }
+    ],
+    "loop": []
+}
